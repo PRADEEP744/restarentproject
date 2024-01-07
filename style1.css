@@ -1,0 +1,383 @@
+/* index style content start */
+.container{
+    width:100%;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    background-color: rgb(18, 162, 114);
+    padding: 15px;
+}
+
+#indexpara{
+  color:rgb(39, 19, 117);
+  font-style: italic;
+  text-transform: uppercase;
+ 
+}
+.logoimg{
+    border-radius:50%;
+}
+
+#cheffImg{
+    position: absolute;
+    left:84%;
+    top: 9%;
+    border-radius: 50%;
+}
+p{
+    font-family:'Times New Roman';
+    font-size: 250%;
+}
+ 
+.nextButton{
+    float: right;
+    width: 5%;
+    padding:0.5% 0.5%;
+    background-color: rgb(26, 181, 65);
+    font-size: 100%;
+}
+a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+a:hover{
+    color:rgb(247, 40, 40);
+}
+/* index style content end */
+
+
+
+/*  rooms Style content  start */
+
+#roombody{
+    background-color: rgb(204, 204, 210);
+}
+
+.roomcontainer{
+    width: 100%;
+    float: left;
+   }
+
+.container1{
+    width: 98%;
+    padding:2%;
+   
+}
+.leftContainer{
+    width: 50%;
+    float: left;
+    margin-top: 2%;
+    
+}
+.rightContainer{
+    width: 50%;
+    float: right;
+ 
+}
+.restaurentImg{
+    border-radius: 20%;
+    max-width: 100%;
+    padding-bottom: 4%;
+
+}
+.logoimg{
+    border-radius:50%;
+}
+.para{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 200%;
+    text-align: justify;
+    position: relative;
+}
+.bookingbutton{
+    background-color: rgb(6, 163, 6);
+    color: whitesmoke;
+    font-size: 25px;
+    border-radius: 20px;
+}
+#rcd1{
+    position:relative;
+    top: 120px;
+}
+#rcd2{
+    position:relative;
+    top: 240px;
+}
+#rcd3{
+    position:relative;
+    top: 360px;
+}
+#rcd4{
+    position:relative;
+    top: 460px;
+}
+/*  rooms Style content  end */
+
+
+
+/*  dinner Style content start */
+#dinnerbody{
+    background-image: url('images/HD-wallpaper-food-dessert-still-life.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+#h2dinner{
+    color: whitesmoke;
+    font-size: 240%;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+#foodOrderDiv{
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    left: 9%;
+}
+/*  dinner Style content end */
+
+
+
+/* food Style content  start */
+
+#foodbody{
+    background-color: gainsboro;
+}
+#foodL1Div{
+ width: 100%;
+ display: grid;
+ grid-template-columns: repeat(2,0.5fr);
+ padding: 2%;
+ }
+ #foodL2Div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,0.5fr);
+    padding: 2%;
+    }
+    #foodL3Div{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,0.5fr);
+        padding: 2%;
+        }
+.foodImg{
+    width: 600px;
+    height: 400px;
+    margin-bottom: 8%;
+    border-radius: 20px;
+}
+.head1{
+   color: rgb(197, 9, 109);
+   font-family: Georgia, 'Times New Roman';
+   font-size: 280%;
+   text-decoration-line: overline underline;
+   text-decoration-color:rgb(197, 9, 109);
+}
+.orderbutton{
+    background-color: rgb(6, 163, 6);
+    color: whitesmoke;
+    font-size: 25px;
+    border-radius: 20px;
+    padding:1%;
+    position: absolute;
+    left: 83%;
+    top: 160%;
+}
+#orderbutton1{
+    background-color: rgb(6, 163, 6);
+    color: whitesmoke;
+    font-size: 25px;
+    border-radius: 20px;
+    padding:1%;
+    position: absolute;
+    left: 83%;
+    top: 313%;
+}
+#orderbutton2{
+    background-color: rgb(6, 163, 6);
+    color: whitesmoke;
+    font-size: 25px;
+    border-radius: 20px;
+    padding:1%;
+    position: absolute;
+    left: 83%;
+    top: 531%;
+}
+/* food Style content end */
+
+
+
+/* discount style content start */
+#discountbg{
+    background-size: cover;
+    background-image: url('images/wooden.jpg');
+    background-repeat: no-repeat;
+}
+#h2discount{
+    color: rgb(197, 232, 232);
+    font-size: 240%;
+    position: absolute;
+    left: 38%;
+    top: 20%;
+  
+}
+#h1discount{
+    color: rgb(197, 232, 232);
+    font-size: 1300%;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+}
+.bookingbutton{
+    background-color: rgb(6, 163, 6);
+    color: whitesmoke;
+    font-size: 25px;
+    border-radius: 20px;
+    }
+#buttonposition{
+    position: absolute;
+    top: 65%;
+    left: 38%;
+    }
+
+/* discount style content end */
+
+
+
+/* form style content start*/
+#formbg{
+  background-image: url('images/food2/abstract.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+    color:whitesmoke;
+}
+    
+.formcontainer{
+    width: 99%;
+    padding: 0.5%;
+   
+    
+}
+#buttonNext{
+    float: right;
+    width: 5%;
+    padding:0.5% 0.5%;
+    background-color: rgb(36, 222, 83);
+}
+
+.firstdiv{
+    margin-top: 2%;
+    margin-left: 2%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font-size: 150%;
+}
+
+#inputform1{
+   margin-left: 2%;
+   font-size: 70%;
+}
+#inputform2{
+    margin-left: 9%;
+    font-size: 70%;
+ }
+ #inputform3{
+    margin-left: 2.5%;
+    font-size: 70%;
+    
+ }
+ #inputform4{
+    margin-left: 16%;
+    width: 30%;
+    font-size: 80%;
+    
+ }
+ #inputform5{
+    margin-left: 5.5%;
+    font-size: 70%;
+ }
+ #inputform6{
+    margin-left: 20.4%;
+    width: 30.5%;
+    font-size: 70%;
+ }
+ #inputform7{
+    margin-left: 10.4%;
+    width: 30.5%;
+    font-size: 70%;
+ }
+ #inputform8{
+    margin-left: 9.5%;
+    width: 30.5%;
+    font-size: 70%;
+ }
+
+ .boldlabel{
+    font-size: 200%;
+     margin-top: 2%;
+     margin-left: 2%;
+ }
+  .seconddiv{
+    margin-top: 1%;
+    margin-left: 8%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font-size: 150%;
+}
+.foodgap{
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+#thireddiv{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 80%;
+    position: relative;
+
+}
+/* form style content end*/
+
+
+/* end style content start*/
+#endbg{
+    width: 98%;
+    padding: 1%;
+    background-image: url('images/restaurent/hotel-outlook.jpg');
+}
+
+#position{
+    color: rgb(177, 9, 9);
+    font-size: 110%;
+}
+/* end style content end*/
+
+
+
+/* about style content start*/
+.aboutcontainer{
+    width: 100%;
+    background-color: rgb(232, 241, 238);
+    float: left;
+}
+#aboutpara{
+    font-size: 160%;
+    margin-top: 8%;
+    text-align: justify;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.imglinks{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 10%;
+}
+.paraabout{
+    font-size: 180%;
+    margin-bottom: 2%;
+}
+.aboutf{
+    color:rgb(39, 19, 117);
+}
+/* about style content end*/
